@@ -1,0 +1,124 @@
+h2 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: var(--letra-cursiva);
+    font-size: 7rem;
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: var(--letra-cursiva);
+    font-size: 3.5rem;
+}
+
+p {
+    font-family: 'Bad Script', cursive;
+    color: var(--letra-negra);
+}
+
+header {
+    width: 100%;
+    min-width: 320px;
+    height: 100vh;
+    background-image: url(../assets/img/media_grande/portada_g.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.invitacion-container  p {
+    font-size: 3rem;
+    margin: 2rem;
+    margin-bottom: 2rem;
+}
+
+.nuestra_boda {
+    width: 100%;
+    min-width: 320px;
+    height: 100vh;
+    background-image: url(../assets/img/media_grande/nuestra_boda_g.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mapa p {
+    font-family: 'Cormorant Garamond', serif;;
+    font-size: 3rem;   
+    text-align: center;
+    line-height: 3.5rem;
+    margin: 0 30px 30px 30px;
+    
+}
+
+.mapa iframe{
+    width: 500px;
+    height: 280px;
+}
+
+.menu-izquierdo .icon{
+    padding: 20px;
+}
+.icon img{
+    width: 80px;
+    height: 80px;
+}
+.menu-derecho .texto{
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+.texto .hora{
+    font-size: 3rem;
+    line-height: 4.5rem;
+} 
+.texto .itineario{
+    font-size: 2.5rem;
+} 
+.programa h2 {
+    font-size: 9rem;
+}
+
+
+.countdown p {
+    display: grid;
+    place-items: center;
+    border: solid 1px var(--letra-negra);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    color: var(--letra-negra);
+    font-size: 3rem;
+    font-weight: bold;
+    background: #d8b87f; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fff,#fbd786, #cda588); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fff, #fbd786, #cda588); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.countdown span {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    color: var(--letra-cursiva);
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+.contador-container h3{
+    font-size: 3.5rem;
+}
+
+/* .regalos{
+    max-width: 780px;
+} */
+.regalos  p {
+    font-size: 3rem;
+    margin: 2rem;
+    margin-bottom: 2rem;
+}
+
+.regalos img {
+    width: 400px;
+    height: 400px;
+    align-self: center;
+}
+
